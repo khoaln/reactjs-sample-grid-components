@@ -1,0 +1,64 @@
+/* Grid */
+.fixedDataTableLayout_main,
+.fixedDataTableLayout_rowsContainer,
+.fixedDataTableRowLayout_rowWrapper,
+.fixedDataTableRowLayout_main,
+.fixedDataTableLayout_rowsContainer > div:last-child{
+	width: 100% !important;
+	border: none;
+	z-index: 0;
+}
+.fixedDataTableLayout_main div[class*="fixedDataTable"]{
+	border: none;
+}
+.fixedDataTableLayout_header{
+	text-transform: uppercase;
+}
+.public_fixedDataTable_header, 
+.public_fixedDataTable_header .public_fixedDataTableCell_main{
+	background: #fff;
+}
+.public_fixedDataTableRow_main.active,
+.public_fixedDataTableRow_even.active,
+.public_fixedDataTableRow_odd.active{
+	background-color: #fffcbe;
+}
+.public_fixedDataTableRow_even{
+	background-color: #f4f4f4;
+}
+.public_fixedDataTableRow_odd{
+	background-color: #fff;
+}
+
+.public_fixedDataTableCell_main,
+.public_fixedDataTableRow_highlighted, 
+.public_fixedDataTableRow_highlighted .public_fixedDataTableCell_main {
+	background: none;
+	padding: 0 18px;
+}
+.bootgrid-footer .grid-pagelength{
+	box-shadow: none;
+    border: 1px solid #eee;
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 5px;
+}
+.bootgrid-footer .grid-pagelength .dropdown-item{
+	cursor: pointer;
+}
+#grid div.checkbox{
+	position: absolute;
+	top: 0;
+}
+#grid .commands .public_fixedDataTableCell_cellContent{
+	padding-top: 0;
+}
+.commands button[type="button"]{
+	margin-right: 2px;
+}
+.command-group{
+	background-color: #fff;
+}
+.card-header .actions li a {
+	cursor: pointer;
+}
